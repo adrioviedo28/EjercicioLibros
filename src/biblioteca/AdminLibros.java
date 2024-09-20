@@ -20,11 +20,13 @@ public class AdminLibros {
         System.out.println("Autor libro 2: "+ libroDos.getAutor());
         System.out.println("Numero de paginas libro 2: "+ libroDos.getNumeroDePaginas());
         System.out.println("Ano de publicacion libro 2: "+ libroDos.getAnoDePublicacion());
-
-
+        System.out.println("------------------------------------------------------------");
+     //Modificacion libro
+        System.out.println("Datos del libro 1 modificado: ");
         libroUno.setNumeroDePaginas(500);
-
-        //modificacion();
-        //System.out.println("numero de paginas libro 1 modificado: " + libroUno.getNumeroDePaginas());
+        System.out.println("Nombre del Libro 1: " + libroUno.getTitulo());
+        System.out.println("Autor del Libro 1: " + libroUno.getAutor());
+        System.out.println("Numero de paginas del Libro 1 Modificado: "+ libroUno.getNumeroDePaginas());
+        System.out.println("Año de Publicacion del Libro 1: " + libroUno.getAnoDePublicacion());
     }
 }
